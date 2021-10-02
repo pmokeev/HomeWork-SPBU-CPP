@@ -1,5 +1,7 @@
 #include <iostream>
 
+// Или просто:
+// current_x ^ (1 << current_i)
 int switch_bit(int current_x, int current_i) {
     int bit = (current_x & ( 1 << current_i )) >> current_i;
 
